@@ -1,0 +1,37 @@
+
+.nav-tabs .nav-link.active {
+    background-color: rgb(19, 85, 207);
+    color: white;
+    font-weight: bold;
+    border-radius: 50px 50px 50px 50px;
+}
+.nav-link{
+    color: blue;
+    
+}
+.nav{
+    margin-left: 300px;
+    width: 177px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    /* background-color: rgb(16, 114, 226); */
+    width: 50%;
+    float: left;
+    margin-left: 360px;
+
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+/* .btn{
+    background-color: aliceblue;
+    color: blue;
+    font-weight: bold;
+    margin-left: 300px;
+} */
+
+

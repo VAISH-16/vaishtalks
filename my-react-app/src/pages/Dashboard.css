@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(0, 20, 87);
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+#chat-sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    margin-top: 20px;
+    max-height: 100%;
+}
+
+.sidebar-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    /* text-align: center; */
+    border-bottom: 1px solid #dee2e6;
+}
+
+.sidebar-contacts {
+    padding: 15px;
+}
+
+.contact {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black;
+}
+
+.contact:hover {
+    background-color: #e8e8e8;
+}
+
+.chat-container {
+    padding-top: 20px;
+}
+
+#chat {
+    height: 100%;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #0a3a6e;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-body {
+    height: calc(100% - 80px);
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: auto;
+    clear: both; /* Ensure each message container clears the previous float */
+}
+
+.sent {
+    background-color: #ffffff;
+    color: #000000;
+    align-self: flex-end;
+    float: right; /* Place sent messages on the right */
+}
+
+.received {
+    /* background-color: #f8f9fa; */
+    /* width: 50%; */
+    color: #000;
+    align-self: flex-start;
+    float: left; /* Place received messages on the left */
+    margin-left: 0; /* Set margin-left to 0 to position at the extreme left */
+}
+
+
+.message-sender,
+.message-text,
+.message-timestamp {
+    clear: both;
+}
+
+.message-sender {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    float: right;
+}
+
+.message-text {
+    background-color: rgb(2, 36, 25);
+    max-width: 100%;
+    padding: 10px;
+    float: right;
+    font-size: 16px;
+    border-radius: 8px;
+    color: white;
+}
+
+.message-timestamp {
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+}
+
+#send{
+    background-color: aliceblue;
+    color: blue;
+    font-weight: bold;
+    margin-left: 300px;
+}
+#add_contact{
+    background-color: aliceblue;
+    color: blue;
+    font-weight: bold;
+    width:119px;
+}
+
+header {
+    background-color: #2873b1;
+    /* padding: 10px; */
+    color: #ffffff;
+    /* text-align: center; */
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-avatar {
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .user-name {
+    font-weight: bold;
+    margin-right: 15px;
+  }
+
+  h1{
+    margin-left: 15px;
+    font-family: cursive;
+  }
+
+  #dropdown-basic{
+    background-color: #2873b1;
+    border: none;;
+  }
